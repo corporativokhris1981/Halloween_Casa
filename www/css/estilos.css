@@ -1,0 +1,31 @@
+#purple{
+color:purple;
+font-weight:bold;
+font-size:20px;
+}
+.galeria{
+	display:flex;
+	justify-content:center;
+}
+.galeria div{
+	width:30%;
+  	}
+  	@keyframes fadp{
+  	 0%{background:red;}
+  	 20%{background:blue;}
+  	 40%{background:yellow;}
+  	 60%{background:aqua;}
+  	 100%{background:pink;}
+  	 }
+@media screen and (max-width:600px){
+	body{
+		background:lightgreen;
+	}
+    .galeria{flex-direction:column;
+     text-align: center;
+     padding:0,3em;
+    }
+    .galeria div{
+    	width:90%;
+    }
+}
